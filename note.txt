@@ -1,0 +1,2 @@
+All this content was made by Leandro Gomes with the propose of getting better at JS and someday work on the area that I enjoy the most.
+So any of this code was not copy past! And all the design and images were created by me.
