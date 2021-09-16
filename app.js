@@ -1,11 +1,10 @@
 "use strict";
 
-const word = prompt("select the word for your guesser");
+const word = prompt("SELECT A WORD FOR YOUR FRIEND GUESS! :D");
 const sw = document.querySelector(".sw");
 
 //Inicio. Colocar o boneco 'invisível'
 let bonecoPartes = document.querySelectorAll(".boneco");
-console.log(bonecoPartes);
 
 //Coloca a Palavra em asteriscos
 //Nota: Meter em array a word, pois deve ser melhor para localizar as letras
@@ -40,6 +39,7 @@ clickBox.addEventListener("click", function () {
   if (guess.value != word) {
     imgNext();
   } else {
+    sw.innerHTML = word; // Muda os asteriscos da pagina para a palavra correta
     console.log("correto");
   }
 });
